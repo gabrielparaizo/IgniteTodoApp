@@ -27,7 +27,7 @@
 
 ## **About**
 
-To.do is an application for you to manage your daily tasks, created at [Rocketseat](rocketseat.com.br)'s Ignite Bootcamp, the application aims to exercise a little bit more about state handling in React.
+To.do is an application for you to manage your daily tasks, created at [Rocketseat](https://www.rocketseat.com.br/ignite)'s Ignite Bootcamp, the application aims to exercise a little bit more about state handling in React.
 
 ## **Technologies**
 

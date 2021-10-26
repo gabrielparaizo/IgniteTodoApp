@@ -30,7 +30,7 @@
 
 ## **Sobre**
 
-To.do é uma aplicação criada para gerenciar suas tarefas diárias, criada no Bootcamp Ignite da [Rocketseat](rocketseat.com.br), a aplicação tem como objetivo exercitar um pouco mais sobre manipulação de estado no React.
+To.do é uma aplicação criada para gerenciar suas tarefas diárias, criada no Bootcamp Ignite da [Rocketseat](https://www.rocketseat.com.br/ignite), a aplicação tem como objetivo exercitar um pouco mais sobre manipulação de estado no React.
 
 ## **Tecnologias**
 
