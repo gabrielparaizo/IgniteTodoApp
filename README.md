@@ -6,7 +6,7 @@
 
 ### **Gerencie suas tarefas diárias**
 
-Don't know portuguese?, don't worry, check out the [english version]()
+Don't know portuguese?, don't worry, check out the [english version](https://github.com/gabrielloppes/IgniteTodoApp/blob/main/README-EN.md)
 
 <br>
 
