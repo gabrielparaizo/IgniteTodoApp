@@ -6,16 +6,16 @@
 
 ### **Gerencie suas tarefas diárias**
 
-Don't know portuguese?, don't worry, check out the [english version](https://github.com/gabrielloppes/IgniteTodoApp/blob/main/README-EN.md)
+> Don't know portuguese?, I've got you!, check out the [english version](https://github.com/gabrielloppes/IgniteTodoApp/blob/main/README-EN.md)
 
 <br>
 
 <!-- Badges -->
 
-![GitHub last commit](https://img.shields.io/github/last-commit/gabrielloppes/01-github-explorer?logo=github&style=for-the-badge)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/gabrielloppes/01-github-explorer?logo=npm&style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/gabrielloppes/01-github-explorer?style=for-the-badge)
-![GitHub](https://img.shields.io/github/license/gabrielloppes/01-github-explorer?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/gabrielloppes/IgniteTodoApp?logo=github&style=for-the-badge)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/gabrielloppes/IgniteTodoApp?logo=npm&style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/gabrielloppes/IgniteTodoApp?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/gabrielloppes/IgniteTodoApp?style=for-the-badge)
 
 ## **Tabela de conteúdo**
 
@@ -24,20 +24,28 @@ Don't know portuguese?, don't worry, check out the [english version](https://git
 - **[Como Utilizar](#como-utilizar)**
   - **[Clonar o repositório](#clonar-o-repositório)**
   - **[Rodar o projeto](#rodar-o-projeto)**
-  <!-- * **[Layout](#layout)** -->
+
+- **[Rodar os testes](#rodar-os-testes)**
 - **[Autor](#autor)**
 
 ## **Sobre**
 
-GitHub Explorer é o primeiro projeto criado no Bootcamp Ignite da [Rocketseat](rocketseat.com.br) na trilha de ReactJS
+To.do é uma aplicação criada para gerenciar suas tarefas diárias, criada no Bootcamp Ignite da [Rocketseat](rocketseat.com.br), a aplicação tem como objetivo exercitar um pouco mais sobre manipulação de estado no React.
 
 ## **Tecnologias**
 
-- **JavaScript**
-- **TypeScript**
-- **NodeJS**
-- **Yarn**
-- **SASS**
+<table>
+  <tr>
+    <td>TypeScript</td>
+    <td>Webpack</td>
+    <td>Node SASS</td>
+  </tr>
+  <tr>
+    <td>4.1.3</td>
+    <td>5.17.0</td>
+    <td>6.0.1</td>
+  </tr>
+</table>
 
 ## **Como Utilizar**
 
@@ -48,19 +56,19 @@ GitHub Explorer é o primeiro projeto criado no Bootcamp Ignite da [Rocketseat](
   Via HTTPS
 
   ```bash
-  https://github.com/gabrielloppes/01-github-explorer.git
+  https://github.com/gabrielloppes/IgniteTodoApp.git
   ```
 
   Via SSH
 
   ```bash
-  git@github.com:gabrielloppes/01-github-explorer.git
+  git@github.com:gabrielloppes/IgniteTodoApp.git
   ```
 
   Via GitHub CLI
 
   ```bash
-  gh repo clone gabrielloppes/01-github-explorer
+  gh repo clone gabrielloppes/IgniteTodoApp
   ```
 
 - ### **Rodar o projeto**
@@ -68,19 +76,27 @@ GitHub Explorer é o primeiro projeto criado no Bootcamp Ignite da [Rocketseat](
   Após isso, navegue até a pasta do projeto
 
   ```bash
-  cd 01-github-explorer
+  cd IgniteTodoApp
   ```
 
   Após entrar na pasta do projeto, instale as dependências:
 
   - Utilizando o Yarn:
     ```bash
-    yarn install
+    yarn
     ```
     Então, rode a aplicação:
 
   ```bash
   yarn dev
+  ```
+
+- ### **Rodar os testes**
+
+  Para rodar os teste, digite o seguinte comando
+
+  ```bash
+  yarn test
   ```
 
 ## **Autor**
