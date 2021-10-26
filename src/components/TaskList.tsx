@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import '../styles/tasklist.scss';
 
-import { FiTrash, FiCheckSquare } from 'react-icons/fi';
+import { HiOutlineTrash, HiPlus } from 'react-icons/hi';
 
 interface Task {
   id: number;
@@ -62,7 +62,7 @@ export function TaskList() {
             data-testid="add-task-button"
             onClick={handleCreateNewTask}
           >
-            <FiCheckSquare size={16} color="#fff" />
+            <HiPlus size={16} color="#fff" />
           </button>
         </div>
       </header>
@@ -92,7 +92,7 @@ export function TaskList() {
                 data-testid="remove-task-button"
                 onClick={() => handleRemoveTask(task.id)}
               >
-                <FiTrash size={16} />
+                <HiOutlineTrash size={16} />
               </button>
             </li>
           ))}
